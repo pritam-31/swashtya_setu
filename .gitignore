@@ -1,0 +1,13 @@
+# Dependencies - This folder can be huge and is reinstalled using npm install
+/node_modules
+
+# Environment variables - Contains secret keys and should never be shared
+.env
+
+# Logs
+npm-debug.log
+*.log
+
+# IDE and OS specific files
+.DS_Store
+.vscode/
